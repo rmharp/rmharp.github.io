@@ -5,9 +5,13 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "validate": "html-validate dist/**/*.html"
   },
   "dependencies": {
     "astro": "^5.17.3"
+  },
+  "devDependencies": {
+    "html-validate": "^10.9.0"
   }
 }

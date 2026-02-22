@@ -5,7 +5,7 @@ import reading from '../data/reading.json';
 <section id="reading" class="container">
   <hr class="section-divider" />
   <div style="padding: 4rem 0;">
-    <p class="section-label animate-in">Reading List</p>
+    <h2 class="section-label animate-in">Reading List</h2>
     {reading.map((category, ci) => (
       <div class={`reading-category animate-in stagger-${Math.min(ci + 1, 4)}`}>
         <h3 class="reading-category__title">{category.category}</h3>

@@ -1,0 +1,52 @@
+[
+  {
+    "category": "Machine Learning",
+    "items": [
+      {
+        "title": "Attention Is All You Need",
+        "url": "https://arxiv.org/abs/1706.03762",
+        "source": "Vaswani et al."
+      },
+      {
+        "title": "Deep Residual Learning for Image Recognition",
+        "url": "https://arxiv.org/abs/1512.03385",
+        "source": "He et al."
+      },
+      {
+        "title": "Generative Adversarial Networks",
+        "url": "https://arxiv.org/abs/1406.2661",
+        "source": "Goodfellow et al."
+      }
+    ]
+  },
+  {
+    "category": "Software Engineering",
+    "items": [
+      {
+        "title": "Designing Data-Intensive Applications",
+        "url": "https://dataintensive.net/",
+        "source": "Martin Kleppmann"
+      },
+      {
+        "title": "The Pragmatic Programmer",
+        "url": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/",
+        "source": "Hunt & Thomas"
+      }
+    ]
+  },
+  {
+    "category": "Neuroscience & AI",
+    "items": [
+      {
+        "title": "DeepLabCut: Markerless pose estimation",
+        "url": "https://www.nature.com/articles/s41593-018-0209-y",
+        "source": "Mathis et al., Nature Neuroscience"
+      },
+      {
+        "title": "Brain-Computer Interfaces: A Review",
+        "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2020.00068/full",
+        "source": "Frontiers in Human Neuroscience"
+      }
+    ]
+  }
+]

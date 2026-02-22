@@ -1,0 +1,57 @@
+---
+const posts = [
+  {
+    title: 'Microservices Evolution Starts with Monolith: Here\'s Why',
+    url: 'https://medium.com/gitconnected/microservices-evolution-starts-with-monolith-heres-why-a0fc466d8aef',
+    category: 'Architecture',
+  },
+  {
+    title: 'Introducing OverflowAI by Stack Overflow',
+    url: 'https://medium.com/ai-in-plain-english/introducing-overflowai-by-stack-overflow-aa83053d1016',
+    category: 'AI',
+  },
+  {
+    title: 'Rethinking Unit Testing: An Effective Approach',
+    url: 'https://medium.com/gitconnected/rethinking-unit-testing-an-effective-approach-for-software-development-84e4ab6b532d',
+    category: 'Testing',
+  },
+  {
+    title: '\'Clean\' Code, Horrible Performance',
+    url: 'https://levelup.gitconnected.com/clean-code-horrible-performance-2e9a55f9674b',
+    category: 'Best Practices',
+  },
+  {
+    title: 'How ChatGPT Can Help with Creating a Swagger Script',
+    url: 'https://levelup.gitconnected.com/how-chatgpt-can-help-with-creating-a-swagger-script-for-an-api-endpoint-af2fa01afb9a',
+    category: 'AI',
+  },
+  {
+    title: 'How to Boost Your API Performance',
+    url: 'https://medium.com/gitconnected/how-to-boost-your-api-performance-32d481908f28',
+    category: 'Backend',
+  },
+];
+---
+
+<section id="blog" class="container">
+  <hr class="section-divider" />
+  <div style="padding: 4rem 0;">
+    <p class="section-label animate-in">Blog</p>
+    <div class="blog-list">
+      {posts.map((post, i) => (
+        <a
+          href={post.url}
+          target="_blank"
+          rel="noopener"
+          class={`blog-item animate-in stagger-${Math.min(i + 1, 4)}`}
+        >
+          <span class="blog-item__title">{post.title}</span>
+          <span class="blog-item__meta">
+            <span class="blog-item__category">{post.category}</span>
+            <span class="blog-item__arrow">&nearr;</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,36 +1,31 @@
-Forked from: https://github.com/codewithsadee/vcard-personal-portfolio
+# rmharp.github.io
 
-# Demo
+Personal portfolio site for Riley Harper. Built with [Astro](https://astro.build/).
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
+## Development
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+npm install
+npm run dev       # Start dev server at localhost:4321
+npm run build     # Build for production
+npm run preview   # Preview production build locally
 ```
 
-Windows:
+## Deployment
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+Pushes to `main` automatically deploy to GitHub Pages via the workflow in `.github/workflows/deploy.yml`. The workflow builds the Astro site and deploys the `dist/` folder.
+
+**Important:** In the GitHub repository settings, set Pages source to "GitHub Actions" (not "Deploy from a branch").
+
+## Structure
+
 ```
-
-## Contact
-
-If you want to contact me you can reach me at [riley.harper@unc.edu](mailto:riley.harper@unc.edu).
-
-## License
-
-This project is **free to use** and does not contains any license.
+src/
+  components/   Astro components for each section
+  data/         JSON data files (experience, research, projects, reading list)
+  layouts/      Base HTML layout with meta tags and theme setup
+  pages/        Page routes (single index.astro)
+  scripts/      Theme toggle and scroll animation JS
+  styles/       Global CSS with light/dark theme variables
+public/         Static assets (resume PDF, favicon, scripts)
+```

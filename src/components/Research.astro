@@ -1,0 +1,22 @@
+---
+import research from '../data/research.json';
+---
+
+<section id="research" class="container">
+  <hr class="section-divider" />
+  <div style="padding: 4rem 0;">
+    <p class="section-label animate-in">Research</p>
+    <div class="research-list">
+      {research.map((item, i) => (
+        <div class={`research-item animate-in stagger-${Math.min(i + 1, 4)}`}>
+          <div class="research-item__date">{item.date}</div>
+          <div>
+            <div class="research-item__title">{item.title}</div>
+            <div class="research-item__org">{item.org}</div>
+            <div class="research-item__desc">{item.description}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Co-Editor-in-Chief",
+    "org": "UNC Journal of Undergraduate Research (JOURney)",
+    "date": "Dec 2023 -- Present",
+    "description": "Managing and overseeing operations of UNC's student-run undergraduate research journal spanning natural sciences, social sciences, and humanities."
+  },
+  {
+    "title": "Machine Learning Research Fellow",
+    "org": "UNC School of Medicine",
+    "date": "Aug 2024 -- Sep 2025",
+    "description": "Applied machine learning methods to medical research at the UNC School of Medicine."
+  },
+  {
+    "title": "Computer Vision Directed Reading Program",
+    "org": "UNC Department of Computer Science",
+    "date": "Jan 2025 -- Apr 2025",
+    "description": "Completed directed reading program focused on computer vision fundamentals and applications."
+  },
+  {
+    "title": "ML Undergraduate Research Assistant",
+    "org": "BRANE Lab, UNC",
+    "date": "Aug 2023 -- Sep 2024",
+    "description": "Researched neurobiological and behavioral determinants of substance use treatment response using machine learning methods."
+  },
+  {
+    "title": "Cryptocurrency Research Assistant",
+    "org": "Rethinc. Labs, UNC",
+    "date": "May 2023 -- Aug 2023",
+    "description": "Conducted research on cryptocurrency markets and business adaptation strategies."
+  }
+]

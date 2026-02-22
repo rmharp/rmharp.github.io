@@ -1,0 +1,33 @@
+---
+import experience from '../data/experience.json';
+---
+
+<section id="experience" class="container">
+  <hr class="section-divider" />
+  <div style="padding: 4rem 0;">
+    <p class="section-label animate-in">Experience</p>
+    <div class="experience-list">
+      {experience.map((job, i) => (
+        <div class={`experience-item animate-in stagger-${Math.min(i + 1, 4)}`}>
+          <div class="experience-item__date">{job.date}</div>
+          <div>
+            <div class="experience-item__role">{job.role}</div>
+            <div class="experience-item__company">{job.company}</div>
+            <ul class="experience-item__bullets">
+              {job.bullets.map((bullet) => (
+                <li>{bullet}</li>
+              ))}
+            </ul>
+            {job.tech.length > 0 && (
+              <div class="experience-item__tech">
+                {job.tech.map((t) => (
+                  <span class="tag">{t}</span>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

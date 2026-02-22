@@ -1,0 +1,74 @@
+[
+  {
+    "company": "Fidelity Investments",
+    "role": "Machine Learning Engineering Intern",
+    "date": "Jun 2025 -- Aug 2025",
+    "bullets": [
+      "Containerized and deployed SageMaker workloads with CI/CD pipelines using Jenkins, Docker, and Kubernetes.",
+      "Wrote first code in production for the AI Portal, a platform unifying DS and SWE best practices.",
+      "Engineered integration tests with MLOps/DevOps principles for Model Maker platform, catching two bugs before release.",
+      "Worked on GenAI Gateway, an abstraction layer uniting AWS Bedrock and Azure for enterprise-grade LLM access at scale."
+    ],
+    "tech": ["AWS", "Docker", "Kubernetes", "Jenkins", "Python"]
+  },
+  {
+    "company": "National Institutes of Health (NIH)",
+    "role": "Research Intern",
+    "date": "Jan 2025 -- Present",
+    "bullets": [
+      "Developed CNN/GNN for multi-animal pose estimation in Neurobiology lab with DeepLabCut, SLEAP, and PyTorch on HPC cluster.",
+      "Packaged codebase for PyPI release and added unit tests, reducing user setup time from hours to minutes."
+    ],
+    "tech": ["PyTorch", "DeepLabCut", "SLEAP", "HPC", "Python"]
+  },
+  {
+    "company": "AI@UNC",
+    "role": "Technical Chair & Co-Founder",
+    "date": "Aug 2023 -- Present",
+    "bullets": [
+      "Co-founded Carolina's inaugural faculty-mentored AI research club, growing membership to 400+ students across 20+ research projects.",
+      "Head Developer for NeuroSpark, integrating AI & VR for awake craniotomy with Unity and PyTorch; secured $25k+ grant funding."
+    ],
+    "tech": ["PyTorch", "Unity", "AWS", "Python"]
+  },
+  {
+    "company": "Velocity Labs",
+    "role": "Quantitative Research Analyst",
+    "date": "Aug 2024 -- Present",
+    "bullets": [
+      "Analyzed HFT and options strategies for student-managed fund with $200k+ AUM, outperforming 98.89% of retail investors.",
+      "Selected at a 3.3% acceptance rate and developed a Kalshi arbitrage trading algorithm with 600%+ returns."
+    ],
+    "tech": ["Python", "yfinance", "Pandas", "NumPy"]
+  },
+  {
+    "company": "Czech Technical University (CVUT)",
+    "role": "Research Intern",
+    "date": "Jul 2024 -- Aug 2024",
+    "bullets": [
+      "Researched Bayesian network optimization at Czechia's top computer science school while studying abroad in Prague.",
+      "Competed in Quantum Computing Hackathon, building 2D quantum walk algorithm capable of solving mazes in O(sqrt(n))."
+    ],
+    "tech": ["Python", "Bayesian Networks", "Quantum Computing"]
+  },
+  {
+    "company": "Chapel Thrill Escapes",
+    "role": "Chief Executive Officer",
+    "date": "Jan 2022 -- Apr 2024",
+    "bullets": [
+      "Raised $40k+ and led 70+ students to launch the nation's first student-run escape room, expanding to a second venue.",
+      "Rebuilt the website, coded an in-house CRM, and forged partnerships with Carolina Housing, 1789 Fund, and BeAM Makerspace."
+    ],
+    "tech": ["JavaScript", "HTML/CSS", "R", "Selenium"]
+  },
+  {
+    "company": "Eats2Seats",
+    "role": "Site Lead",
+    "date": "Sep 2021 -- Oct 2023",
+    "bullets": [
+      "Scaled startup to $2M in annual revenue, expanding to three new markets and training 10k+ event staff.",
+      "Set a Dean Dome single-game sales record of $180k+."
+    ],
+    "tech": []
+  }
+]

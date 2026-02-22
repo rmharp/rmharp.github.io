@@ -1,0 +1,63 @@
+{
+  "featured": [
+    {
+      "title": "NeuroSpark",
+      "description": "AI-powered VR system for awake craniotomy procedures. Integrates real-time neural data with virtual reality using Unity and PyTorch, developed in partnership with the UNC School of Medicine.",
+      "tech": ["Unity", "PyTorch", "C#", "VR"],
+      "github": "https://github.com/ai-unc/neurospark",
+      "external": "https://www.ai-unc.com/projects"
+    },
+    {
+      "title": "Chapel Thrill Escapes CRM",
+      "description": "Built a custom MailChimp/Salesforce-style CRM for managing the nation's first student-run escape room nonprofit, handling contacts, outreach automation, and event coordination.",
+      "tech": ["R", "Selenium", "HTML/CSS", "JavaScript"],
+      "github": "https://github.com/Chapel-Thrill-Escapes",
+      "external": null
+    },
+    {
+      "title": "Kalshi Arbitrage Algorithm",
+      "description": "Developed a prediction market arbitrage trading algorithm for Velocity Labs' student-managed fund, achieving 600%+ returns by identifying pricing inefficiencies.",
+      "tech": ["Python", "Pandas", "NumPy", "REST APIs"],
+      "github": null,
+      "external": null
+    }
+  ],
+  "other": [
+    {
+      "title": "HeelLife",
+      "description": "Data-driven analysis and tooling for UNC campus organizations.",
+      "tech": ["R"],
+      "github": "https://github.com/rmharp/HeelLife"
+    },
+    {
+      "title": "DukeAI",
+      "description": "AI project exploring machine learning applications.",
+      "tech": ["Python"],
+      "github": "https://github.com/rmharp/DukeAI"
+    },
+    {
+      "title": "Multi-Animal Pose Estimation",
+      "description": "CNN/GNN pipeline for tracking animal behavior in neurobiology research at NIH, packaged for PyPI distribution.",
+      "tech": ["PyTorch", "DeepLabCut", "SLEAP"],
+      "github": null
+    },
+    {
+      "title": "UNC Dept Email Push",
+      "description": "Automated email outreach system for UNC department contacts.",
+      "tech": ["R"],
+      "github": "https://github.com/rmharp/UNC-Dept-Email-Push"
+    },
+    {
+      "title": "Quantum Maze Solver",
+      "description": "2D quantum walk algorithm solving mazes in O(sqrt(n)), built during Czech Technical University hackathon.",
+      "tech": ["Python", "Quantum Computing"],
+      "github": null
+    },
+    {
+      "title": "BlinkLive",
+      "description": "Real-time monitoring and alerting application.",
+      "tech": ["Python"],
+      "github": "https://github.com/rmharp/blinklive"
+    }
+  ]
+}

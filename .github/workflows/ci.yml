@@ -32,5 +32,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --exclude-mail dist/
+          args: --verbose --no-progress --exclude 'mailto:.*' dist/
           fail: true

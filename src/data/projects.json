@@ -5,7 +5,7 @@
       "description": "AI-powered VR system for awake craniotomy procedures. Integrates real-time neural data with virtual reality using Unity and PyTorch, developed in partnership with the UNC School of Medicine.",
       "tech": ["Unity", "PyTorch", "C#", "VR"],
       "github": "https://github.com/ai-unc/neurospark",
-      "external": "https://www.ai-unc.com/projects"
+      "external": "https://www.ai-unc.com/"
     },
     {
       "title": "Chapel Thrill Escapes CRM",

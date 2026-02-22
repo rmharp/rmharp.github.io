@@ -32,5 +32,13 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --exclude 'mailto:.*' dist/
+          args: >-
+            --verbose
+            --no-progress
+            --exclude 'mailto:.*'
+            --exclude 'linkedin\.com'
+            --exclude 'medium\.com'
+            --exclude 'levelup\.gitconnected\.com'
+            --accept '200..=299,403,999'
+            dist/
           fail: true

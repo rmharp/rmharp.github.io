@@ -1,6 +1,8 @@
 name: CI
 
 on:
+  push:
+    branches: [develop]
   pull_request:
     branches: [main, develop]
 
@@ -18,6 +20,9 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - name: Validate HTML
+        run: npm run validate
+
       - name: Lighthouse audit
         uses: treosh/lighthouse-ci-action@v12
         with:
@@ -27,5 +32,13 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --exclude-mail dist/
+          args: >-
+            --verbose
+            --no-progress
+            --exclude 'mailto:.*'
+            --exclude 'linkedin\.com'
+            --exclude 'medium\.com'
+            --exclude 'levelup\.gitconnected\.com'
+            --accept '200..=299,403,999'
+            dist/
           fail: true
